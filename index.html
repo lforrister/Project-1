@@ -1,28 +1,80 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title> Concert Buddy</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Special+Elite" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    
+    <title> Concert Buddy </title>
 </head>
 <body>
 
-<div id = "header">
-	<h1> Concert Buddy </h1>
-	<h2> slogan slogan slogan </h2>
-</div>
+<header class = "header">
+	<img src="assets/images/pluginlogowhite.png" id="logo"> 
+</header>
+
 
 <div id = "eventsHead">
 	<h1> Events This Month </h1>
 </div>
 
-<div id = "calendar">
-	<!-- Calendar will go here --> 
+<div class="row">
+  <div class="col-md-7"> 
+ 	 <div id = "event-section">
+		 <h1> Event PlaceHolder </h1>
+	</div>
+  </div>
+  <div class="col-md-4">
+
+  	<div id = "addEvent">
+	Add Event Form will go here 
+	<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputFile">File input</label>
+		    <input type="file" id="exampleInputFile">
+		    <p class="help-block">Example block-level help text here.</p>
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Check me out
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+</div>
 </div>
 
-<div id = "addEvent">
-	<!-- Add Event Form will go here --> 
-</div>
 
-<div id = "footer"> </div>
+
+
+
+<!-- FOOTER -->
+
+<nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
+  <div class="container">
+    <p> FOOTER COPY HERE FOOTER COPY HERE </p>
+  </div>
+</nav>
+<!-- <script src="assets/javascript/app.js"></script> -->
 
 </body>
+
 </html>
+
+
