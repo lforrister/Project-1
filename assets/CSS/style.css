@@ -71,11 +71,35 @@ body {
 	margin-left: 5.5%;
 }
 
-#eventFormHead {
-	background-image: url("http://www.texturemate.com/image/view/1784/_original");
+#findHead {
+	background-image: url("https://texturefabrik.files.wordpress.com/2013/05/26-05-2013_sprayed_031.jpg");
 	color:white;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-left: 5.5%;
 }
 
+#addHead {
+	background-image: url("https://texturefabrik.files.wordpress.com/2013/05/26-05-2013_sprayed_031.jpg");
+	color:white;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+#submitButton {
+	border: 3px solid #7FFFD4;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* EVENTS PAGE --------------------------- */
+#buddy-photos {
+	margin-left: 5.5%;
+}
 
 /* FOOTER -------------------------------- */
 
