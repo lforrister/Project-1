@@ -71,7 +71,7 @@ body {
 	margin-left: 5.5%;
 }
 
-#findHead {
+.leftHead {
 	background-image: url("https://texturefabrik.files.wordpress.com/2013/05/26-05-2013_sprayed_031.jpg");
 	color:white;
 	text-align: center;
@@ -81,7 +81,7 @@ body {
 	margin-left: 5.5%;
 }
 
-#addHead {
+.rightHead {
 	background-image: url("https://texturefabrik.files.wordpress.com/2013/05/26-05-2013_sprayed_031.jpg");
 	color:white;
 	text-align: center;
@@ -97,8 +97,48 @@ body {
 
 
 /* EVENTS PAGE --------------------------- */
-#buddy-photos {
-	margin-left: 5.5%;
+#details-section {
+
+	text-align: center;
+	border: solid 3px black;
+	padding: 5px 0px;
+	margin-left:5.5%;
+
+}
+
+#buddyPics {
+	margin-left:5.5%;
+
+}
+
+#buddyImage {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px; 
+	background-image: url("https://www.dynalite.com/wp-content/uploads/2014/01/Frankie-Leal-Headshot.jpg");
+	background-size:cover;
+	margin-top: .5%;
+	margin-left:5.5%;
+	border: 2px solid #7FFFD4;
+}
+}
+
+.thumbnailMe {
+	display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.img-circle {
+	width:20%;
+
 }
 
 /* FOOTER -------------------------------- */
